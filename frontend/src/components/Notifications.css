@@ -1,0 +1,46 @@
+.notification-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.notification-main {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../assets/notification-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.notification-card {
+  width: 650px;
+
+  padding: 40px;
+
+  background: rgba(0,0,0,0.45);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+}
+
+.notification-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.notify-box {
+  background: rgba(255,255,255,0.15);
+
+  color: white;
+
+  padding: 15px;
+
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+}
