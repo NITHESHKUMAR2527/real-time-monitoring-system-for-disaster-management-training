@@ -1,153 +1,199 @@
-# Real-Time Monitoring System for Disaster Management Trainings
+# 🚨 Disaster Training Monitoring System
 
-## Project Overview
+## 📌 Project Overview
 
-The Real-Time Monitoring System for Disaster Management Trainings is a web-based application designed to manage, monitor, and evaluate disaster management training programs efficiently.
-
-The system helps administrators, trainers, and trainees by providing a centralized platform for training registration, attendance tracking, performance monitoring, notifications, and report generation.
+The Disaster Training Monitoring System is a web-based application developed to manage and monitor disaster management training programs efficiently. The system helps administrators track trainees, attendance, training sessions, reports, notifications, and overall training activities through a centralized dashboard.
 
 ---
 
-## Project Objectives
+## 🎯 Objectives
 
-- Monitor disaster management training activities in real time.
-- Manage trainee registrations and training schedules.
-- Track attendance records.
-- Evaluate trainee performance.
-- Send notifications and updates.
-- Generate training reports automatically.
-- Improve training management efficiency.
+* Manage disaster training programs effectively.
+* Monitor trainee participation and attendance.
+* Maintain training records and reports.
+* Provide real-time notifications and updates.
+* Improve disaster preparedness through systematic training management.
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
-- React JS
-- HTML5
-- CSS3
-- JavaScript
-- React Router DOM
 
-### Development Tools
-- Visual Studio Code
-- Git
-- GitHub
+* React.js
+* HTML5
+* CSS3
+* JavaScript
 
-### Database (Planned)
-- MySQL
+### Tools
 
-### Backend (Planned)
-- Node.js
-- Express.js
+* Visual Studio Code
+* Git & GitHub
+
+### Future Backend Integration
+
+* Node.js
+* Express.js
+* MySQL Database
 
 ---
 
-## Modules
+## 📂 Modules Implemented
 
 ### 1. Login Module
-- Secure login interface
-- User authentication
+
+* Secure login interface
+* Professional disaster-themed design
 
 ### 2. Registration Module
-- Trainee registration
-- Training program selection
+
+* Trainee registration form
+* Training program selection
 
 ### 3. Dashboard Module
-- Training statistics
-- System overview
 
-### 4. Attendance Module
-- Attendance monitoring
-- Attendance records management
+* Admin dashboard
+* Statistics cards
+* Training progress overview
+* Recent activities section
+* Notification panel
 
-### 5. Performance Module
-- Performance evaluation
-- Score tracking
+### 4. Attendance Management Module
 
-### 6. Notification Module
-- Training alerts
-- Important announcements
+* Mark trainee attendance
+* Present/Absent status tracking
+
+### 5. Trainee Management Module
+
+* Add trainee details
+* View trainee records
+* Edit/Delete actions (UI)
+
+### 6. Training Management Module
+
+* Add training programs
+* Manage trainer details
+* Training records table
 
 ### 7. Reports Module
-- Report generation
-- Training summaries
+
+* Generate reports
+* View generated reports
+
+### 8. Notifications Module
+
+* Training alerts
+* Attendance reminders
+* System notifications
+
+### 9. Settings Module
+
+* Admin profile settings
+* Email configuration
+* Password management
+
+### 10. Logout Module
+
+* Secure logout navigation
+* Redirect to login page
 
 ---
 
-## Current Progress
+## 📁 Project Structure
 
-### Completed
-- Project Planning
-- Requirement Analysis
-- Use Case Diagram
-- ER Diagram
-- Database Design
-- UI Wireframe Design
-- React Project Setup
-- Login Page Development
-- Registration Page Development
-- GitHub Repository Setup
+src/
 
-### In Progress
-- Dashboard Development
+├── assets/
 
-### Upcoming
-- Attendance Module
-- Performance Module
-- Notifications Module
-- Reports Module
-- Backend Development
-- Database Integration
+│ ├── disaster-login-bg.jpg
 
----
+│ ├── registration-bg.jpg
 
-## Folder Structure
+│ ├── dashboard-bg.jpg
 
-```text
-Frontend
+│ ├── attendance-bg.jpg
+
+│ ├── trainee-bg.jpg
+
+│ ├── training-bg.jpg
+
+│ ├── reports-bg.jpg
+
+│ ├── notification-bg.jpg
+
+│ └── settings-bg.jpg
+
 │
-├── public
-├── src
-│   ├── assets
-│   ├── components
-│   │   ├── Login.js
-│   │   ├── Login.css
-│   │   ├── Registration.js
-│   │   └── Registration.css
-│   │
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
+
+├── components/
+
+│ ├── Login.js
+
+│ ├── Registration.js
+
+│ ├── Dashboard.js
+
+│ ├── Attendance.js
+
+│ ├── Trainee.js
+
+│ ├── Training.js
+
+│ ├── Reports.js
+
+│ ├── Notifications.js
+
+│ └── Settings.js
+
 │
-├── package.json
-├── package-lock.json
-└── README.md
-```
+
+├── App.js
+
+└── index.js
 
 ---
 
-## Author
+## ✨ Features
 
-**Nithesh Kumar**
-
-Bachelor of Engineering
-
-Project: Real-Time Monitoring System for Disaster Management Trainings
-
----
-
-## Future Enhancements
-
-- Real-time dashboard analytics
-- SMS and Email notifications
-- Role-based access control
-- Mobile responsive design
-- Training certificate generation
-- Cloud deployment
+* Responsive User Interface
+* Professional Dashboard Design
+* Sidebar Navigation
+* Module-Based Architecture
+* Disaster-Themed UI
+* Report Generation Interface
+* Notification Management
+* User-Friendly Navigation
 
 ---
 
-## License
+## 🚀 Future Enhancements
 
-This project is developed for academic and educational purposes.
+* MySQL Database Integration
+* Node.js Backend Development
+* Authentication & Authorization
+* Real-Time Attendance Tracking
+* Automated Report Generation
+* Email & SMS Notifications
+* Analytics Dashboard
+* Cloud Deployment
+
+---
+
+## 📊 Project Status
+
+Frontend Development: ✅ Completed
+
+Backend Development: 🔄 Planned
+
+Database Integration: 🔄 Planned
+
+Overall Project Completion: **100% Frontend Completed**
+
+---
+
+## 👨‍💻 Developed By
+
+**Nithesh Kumar M**
+
+B.Tech. ARTIFICAL INTELLIGENCE AND DATA SCIENCE 
+Disaster Training Monitoring System Project
