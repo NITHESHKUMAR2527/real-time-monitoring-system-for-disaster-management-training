@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.trainee-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo h2 {
+  color: white;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+}
+
+.active-menu {
+  background: #2563eb;
+  font-weight: bold;
+}
+
+.trainee-main {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../assets/trainee-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.trainee-card {
+  width: 650px;
+
+  padding: 40px;
+
+  background: rgba(0,0,0,0.45);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.trainee-title {
+  text-align: center;
+
+  color: white;
+
+  font-size: 40px;
+
+  font-weight: bold;
+
+  margin-bottom: 30px;
+}
+
+.input-box {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(255,255,255,0.3);
+
+  background: rgba(255,255,255,0.15);
+
+  color: white;
+}
+
+.input-box::placeholder {
+  color: #e5e7eb;
+}
+
+.trainee-btn {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.trainee-table {
+  margin-top: 30px;
+}
+
+.trainee-table h2 {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  background: rgba(255,255,255,0.1);
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  color: white;
+
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.edit-btn {
+  background: #22c55e;
+  color: white;
+
+  border: none;
+
+  padding: 6px 12px;
+
+  border-radius: 6px;
+
+  margin-right: 5px;
+
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+
+  border: none;
+
+  padding: 6px 12px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
