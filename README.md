@@ -1,199 +1,267 @@
-# 🚨 Disaster Training Monitoring System
+# Real-Time Monitoring System for Disaster Management Trainings
 
-## 📌 Project Overview
+## Project Description
 
-The Disaster Training Monitoring System is a web-based application developed to manage and monitor disaster management training programs efficiently. The system helps administrators track trainees, attendance, training sessions, reports, notifications, and overall training activities through a centralized dashboard.
+The **Real-Time Monitoring System for Disaster Management Trainings** is a web-based application developed to manage and monitor disaster management training programs efficiently. The system helps administrators manage trainees, trainings, attendance records, notifications, reports, and system settings through a centralized dashboard.
 
----
-
-## 🎯 Objectives
-
-* Manage disaster training programs effectively.
-* Monitor trainee participation and attendance.
-* Maintain training records and reports.
-* Provide real-time notifications and updates.
-* Improve disaster preparedness through systematic training management.
+The project aims to replace manual record-keeping with a digital platform that improves accuracy, accessibility, and management of training activities.
 
 ---
 
-## 🛠️ Technologies Used
+## Project Objectives
+
+* Manage disaster management training programs efficiently.
+* Maintain trainee and trainer information digitally.
+* Track attendance records in real time.
+* Generate training-related reports.
+* Send notifications regarding training activities.
+* Provide an administrator dashboard for monitoring system activities.
+* Improve data management and reduce manual paperwork.
+
+---
+
+## Technologies Used
 
 ### Frontend
 
 * React.js
+* JavaScript (ES6)
 * HTML5
 * CSS3
-* JavaScript
+* React Router DOM
 
-### Tools
-
-* Visual Studio Code
-* Git & GitHub
-
-### Future Backend Integration
+### Backend (Upcoming)
 
 * Node.js
 * Express.js
-* MySQL Database
+* MySQL
 
 ---
 
-## 📂 Modules Implemented
+## Modules Implemented
 
 ### 1. Login Module
 
-* Secure login interface
-* Professional disaster-themed design
+* User Login Interface
+* Authentication UI
+* Navigation to Dashboard
 
 ### 2. Registration Module
 
-* Trainee registration form
-* Training program selection
+* User Registration Form
+* Input Validation
+* Navigation Features
 
 ### 3. Dashboard Module
 
-* Admin dashboard
-* Statistics cards
-* Training progress overview
-* Recent activities section
-* Notification panel
+* Overview Statistics
+* Training Progress Section
+* Recent Activities Section
+* Navigation Sidebar
 
-### 4. Attendance Management Module
+### 4. Trainee Management Module
 
-* Mark trainee attendance
-* Present/Absent status tracking
+#### Features
 
-### 5. Trainee Management Module
+* Add Trainee
+* View Trainees
+* Edit Trainee
+* Delete Trainee
+* Search Trainee
 
-* Add trainee details
-* View trainee records
-* Edit/Delete actions (UI)
+#### Fields
 
-### 6. Training Management Module
+* Full Name
+* Email Address
+* Contact Number
 
-* Add training programs
-* Manage trainer details
-* Training records table
+### 5. Training Management Module
 
-### 7. Reports Module
+#### Features
 
-* Generate reports
-* View generated reports
+* Add Training
+* View Trainings
+* Edit Training
+* Delete Training
+* Search Training
 
-### 8. Notifications Module
+#### Fields
 
-* Training alerts
-* Attendance reminders
-* System notifications
+* Training Name
+* Training Date
+* Trainer Name
+
+### 6. Attendance Management Module
+
+#### Features
+
+* Mark Attendance
+* View Attendance
+* Update Attendance
+* Delete Attendance
+* Search Attendance
+
+#### Fields
+
+* Trainee Name
+* Attendance Status
+
+### 7. Notifications Module
+
+#### Features
+
+* Create Notification
+* View Notifications
+* Delete Notification
+
+### 8. Reports Module
+
+#### Features
+
+* Generate Attendance Report
+* Generate Training Report
+* Generate Trainee Report
+* View Generated Reports
 
 ### 9. Settings Module
 
-* Admin profile settings
-* Email configuration
-* Password management
+#### Features
+
+* Update Admin Name
+* Update Email
+* Change Password
+* Save Settings
 
 ### 10. Logout Module
 
-* Secure logout navigation
-* Redirect to login page
+* Secure Navigation Back to Login Page
 
 ---
 
-## 📁 Project Structure
+## CRUD Operations Completed
 
-src/
+### Trainee Module
 
-├── assets/
+* Create
+* Read
+* Update
+* Delete
+* Search
 
-│ ├── disaster-login-bg.jpg
+### Training Module
 
-│ ├── registration-bg.jpg
+* Create
+* Read
+* Update
+* Delete
+* Search
 
-│ ├── dashboard-bg.jpg
+### Attendance Module
 
-│ ├── attendance-bg.jpg
-
-│ ├── trainee-bg.jpg
-
-│ ├── training-bg.jpg
-
-│ ├── reports-bg.jpg
-
-│ ├── notification-bg.jpg
-
-│ └── settings-bg.jpg
-
-│
-
-├── components/
-
-│ ├── Login.js
-
-│ ├── Registration.js
-
-│ ├── Dashboard.js
-
-│ ├── Attendance.js
-
-│ ├── Trainee.js
-
-│ ├── Training.js
-
-│ ├── Reports.js
-
-│ ├── Notifications.js
-
-│ └── Settings.js
-
-│
-
-├── App.js
-
-└── index.js
+* Create
+* Read
+* Update
+* Delete
+* Search
 
 ---
 
-## ✨ Features
+## Search Features Implemented
 
-* Responsive User Interface
-* Professional Dashboard Design
-* Sidebar Navigation
-* Module-Based Architecture
-* Disaster-Themed UI
-* Report Generation Interface
-* Notification Management
-* User-Friendly Navigation
+* Trainee Search
+* Training Search
+* Attendance Search
 
 ---
 
-## 🚀 Future Enhancements
+## Current Project Status
 
-* MySQL Database Integration
-* Node.js Backend Development
-* Authentication & Authorization
+### Frontend Development
+
+| Module                | Status    |
+| --------------------- | --------- |
+| Login                 | Completed |
+| Registration          | Completed |
+| Dashboard             | Completed |
+| Trainee Management    | Completed |
+| Training Management   | Completed |
+| Attendance Management | Completed |
+| Notifications         | Completed |
+| Reports               | Completed |
+| Settings              | Completed |
+| Navigation            | Completed |
+| Logout                | Completed |
+
+### Frontend Progress
+
+**100% Completed**
+
+---
+
+## Upcoming Backend Development
+
+### Node.js Backend Setup
+
+* Express Server
+* API Development
+* Routing
+
+### Database Integration
+
+* MySQL Connection
+* Database Tables
+* Data Storage
+
+### APIs to be Developed
+
+* Login API
+* Trainee API
+* Training API
+* Attendance API
+* Notification API
+* Reports API
+* Settings API
+
+---
+
+## Database Tables (Planned)
+
+* users
+* trainees
+* trainings
+* attendance
+* notifications
+* reports
+* settings
+
+---
+
+## Future Enhancements
+
+* JWT Authentication
+* Role-Based Access Control
+* Report Download (PDF/Excel)
+* Email Notifications
 * Real-Time Attendance Tracking
-* Automated Report Generation
-* Email & SMS Notifications
-* Analytics Dashboard
-* Cloud Deployment
+* Dashboard Analytics
+* Mobile Responsive Design
 
 ---
 
-## 📊 Project Status
+## Developer
 
-Frontend Development: ✅ Completed
+**Nitheshkumar M**
 
-Backend Development: 🔄 Planned
+**B.Tech Artificial Intelligence and Data Science**
 
-Database Integration: 🔄 Planned
-
-Overall Project Completion: **100% Frontend Completed**
+**VSB Engineering College**
 
 ---
 
-## 👨‍💻 Developed By
+## Project Progress Summary
 
-**Nithesh Kumar M**
+Frontend Development : Completed (100%)
 
-B.Tech. ARTIFICAL INTELLIGENCE AND DATA SCIENCE 
-Disaster Training Monitoring System Project
+Backend Development : In Progress
+
+Overall Project Progress : Approximately 99%
